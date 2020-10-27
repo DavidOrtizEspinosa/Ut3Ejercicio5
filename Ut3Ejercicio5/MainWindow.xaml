@@ -52,8 +52,7 @@
             Margin="5"
             Grid.Row="4"
             Grid.Column="0"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             
                 <Button
                     Tag="1"
@@ -70,8 +69,7 @@
             Margin="5"
             Grid.Row="4"
             Grid.Column="1"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="2"
                     Click="Button_Click">
                 <Viewbox>
@@ -86,8 +84,7 @@
             Margin="5"
             Grid.Row="4"
             Grid.Column="2"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="3"
                     Click="Button_Click">
                 <Viewbox>
@@ -102,8 +99,7 @@
             Margin="5"
             Grid.Row="6"
             Grid.Column="0"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="4"
                     Click="Button_Click">
                 <Viewbox>
@@ -118,8 +114,7 @@
             Margin="5"
             Grid.Row="6"
             Grid.Column="1"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="5"
                     Click="Button_Click">
                 <Viewbox>
@@ -134,8 +129,7 @@
             Margin="5"
             Grid.Row="6"
             Grid.Column="3"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="6"
                     Click="Button_Click">
                 <Viewbox>
@@ -150,8 +144,7 @@
             Margin="5"
             Grid.Row="8"
             Grid.Column="0"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="7"
                     Click="Button_Click">
                 <Viewbox>
@@ -166,8 +159,7 @@
             Margin="5"
             Grid.Row="8"
             Grid.Column="1"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="8"
                     Click="Button_Click">
                 <Viewbox>
@@ -182,8 +174,7 @@
             Margin="5"
             Grid.Row="8"
             Grid.Column="3"
-            Grid.RowSpan="2"
-            Background="LightGray">
+            Grid.RowSpan="2">
             <Button Tag="9"
                     Click="Button_Click">
                 <Viewbox>
@@ -198,19 +189,17 @@
             Margin="5"
             Grid.Row="10"
             Grid.Column="0"
-            Grid.ColumnSpan="3"
-            Background="LightGray">
-            <Button
-                BorderBrush="Transparent"
-             BorderThickness="0"
-             Background="Transparent"
-             VerticalAlignment="Center"
-             Height="25"
-             FontSize="20"
-             Content="0"
-             Tag="0"
-             Click="Button_Click" />
-            
+            Grid.ColumnSpan="3">
+            <Button VerticalAlignment="Center"
+                    Height="25"
+                    FontSize="20"
+                    Tag="0"
+                    Click="Button_Click">
+                <Viewbox>
+                <Label Content="0" />
+                </Viewbox>
+            </Button>
+
         </Border>
 
     </Grid>
