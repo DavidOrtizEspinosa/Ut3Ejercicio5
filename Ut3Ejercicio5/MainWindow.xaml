@@ -32,169 +32,118 @@
         </Grid.ColumnDefinitions>
         
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="0"
             Grid.Column="0"
             Grid.RowSpan="4"
             Grid.ColumnSpan="3">
-        <Viewbox >
+            <Viewbox  HorizontalAlignment="Right">
             <TextBlock 
                 x:Name="textoTextBox"
-                Text=""/>
+                Text=""
+                />
             
         </Viewbox>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="4"
             Grid.Column="0"
             Grid.RowSpan="2">
             
                 <Button
-                    Tag="1"
-                    Click="Button_Click"><Viewbox >
-                    <Label Content="1" 
-                           FontSize="40"/>
+                    Tag="1"><Viewbox >
+                    <Label Content="1" />
                 </Viewbox>
                 </Button>
             
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="4"
             Grid.Column="1"
             Grid.RowSpan="2">
-            <Button Tag="2"
-                    Click="Button_Click">
+            <Button Tag="2">
                 <Viewbox>
-                    <Label Content="2"
-                           FontSize="40" />
+                    <Label Content="2" />
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="4"
             Grid.Column="2"
             Grid.RowSpan="2">
-            <Button Tag="3"
-                    Click="Button_Click">
+            <Button Tag="3">
                 <Viewbox>
-                    <Label Content="3"
-                           FontSize="40" />
+                    <Label Content="3"/>
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="6"
             Grid.Column="0"
             Grid.RowSpan="2">
-            <Button Tag="4"
-                    Click="Button_Click">
+            <Button Tag="4">
                 <Viewbox>
-                    <Label Content="4"
-                           FontSize="40" />
+                    <Label Content="4" />
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="6"
             Grid.Column="1"
             Grid.RowSpan="2">
-            <Button Tag="5"
-                    Click="Button_Click">
+            <Button Tag="5">
                 <Viewbox>
-                    <Label Content="5"
-                           FontSize="40" />
+                    <Label Content="5" />
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="6"
             Grid.Column="3"
             Grid.RowSpan="2">
-            <Button Tag="6"
-                    Click="Button_Click">
+            <Button Tag="6">
                 <Viewbox>
-                    <Label Content="6"
-                           FontSize="40" />
+                    <Label Content="6" />
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="8"
             Grid.Column="0"
             Grid.RowSpan="2">
-            <Button Tag="7"
-                    Click="Button_Click">
+            <Button Tag="7">
                 <Viewbox>
-                    <Label Content="7"
-                           FontSize="40" />
+                    <Label Content="7"/>
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="8"
             Grid.Column="1"
             Grid.RowSpan="2">
-            <Button Tag="8"
-                    Click="Button_Click">
+            <Button Tag="8">
                 <Viewbox>
-                    <Label Content="8"
-                           FontSize="40" />
+                    <Label Content="8" />
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="8"
             Grid.Column="3"
             Grid.RowSpan="2">
-            <Button Tag="9"
-                    Click="Button_Click">
+            <Button Tag="9">
                 <Viewbox>
-                    <Label Content="9"
-                           FontSize="40" />
+                    <Label Content="9"/>
                 </Viewbox>
             </Button>
         </Border>
         <Border
-            BorderBrush="Black"
-            BorderThickness="1"
-            Margin="5"
             Grid.Row="10"
             Grid.Column="0"
             Grid.ColumnSpan="3">
             <Button VerticalAlignment="Center"
                     Height="25"
                     FontSize="20"
-                    Tag="0"
-                    Click="Button_Click">
+                    Tag="0">
                 <Viewbox>
                 <Label Content="0" />
                 </Viewbox>

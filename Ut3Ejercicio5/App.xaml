@@ -4,6 +4,30 @@
              xmlns:local="clr-namespace:Ut3Ejercicio5"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style
+            TargetType="Border">
+            <Setter
+                Property="Margin"
+                Value="5" />
+            <Setter
+                Property="BorderBrush"
+                Value="Black" />
+            <Setter
+                Property="BorderThickness"
+                Value="1" />
+        </Style>
+        <Style
+            TargetType="Button">
+            <EventSetter
+                Event="Click"
+                Handler="Button_Click"/>
+        </Style>
+        <Style
+            TargetType="Label">
+            <Setter
+                Property="FontSize"
+                Value="40" />
+        </Style>
+               
     </Application.Resources>
 </Application>
